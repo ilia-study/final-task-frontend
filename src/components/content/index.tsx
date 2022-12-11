@@ -64,7 +64,7 @@ export const Content: React.FC = () => {
       </div>
       <div className="flex w-[calc(100%-60px)] h-[calc(90px)] mb-[30px] bg-[rgba(255,255,255,0.2)] rounded-2xl shadow-md overflow-scroll justify-between">
         <div className="flex items-center font-bold text-white ml-[20px]">ТЕНДЕРЫ<GiOilDrum className="ml-[5px] mr-[5px]"/>РФ © 2022</div>
-        <div className="flex items-center font-bold text-white mr-[20px]">ИТМО <FaUniversity className="ml-[5px] mr-[5px]"/> Илья Салахов</div>
+        <div className="flex items-center font-bold text-white mr-[20px]">ИНН УНГТУ <FaUniversity className="ml-[5px] mr-[5px]"/> Лия Низамова</div>
       </div>
     </>
   );
