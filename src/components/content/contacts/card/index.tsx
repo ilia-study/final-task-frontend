@@ -1,8 +1,5 @@
 import React from 'react';
-import { IoPersonCircle } from "react-icons/io5";
 
-const lia = require("../images/lia.jpg");
-const stas = require("../images/stas.jpg");
 
 export const ContactsCard: React.FC = () => {
   return (
@@ -11,7 +8,6 @@ export const ContactsCard: React.FC = () => {
         <div className="flex flex-col">
           <div className="font-medium text-white text-xl">Лия Низамова</div>
         </div>
-        <img src={lia} className="w-1/2 rounded-2xl"/>
       </div>
     </div>
   );

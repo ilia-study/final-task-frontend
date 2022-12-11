@@ -13,7 +13,7 @@ export const ContactsCover: React.FC = () => {
             <div className="font-medium text-white">ассистент кафедры</div>
             <div className="font-medium text-white">"Информационных технологий"</div>
           </div>
-          <img src={stas} className="w-1/2 rounded-2xl border-[rgba(255,255,255,0.3)] border-[1px]"/>
+          <img alt="" src={stas} className="w-1/2 rounded-2xl border-[rgba(255,255,255,0.3)] border-[1px]"/>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export const ContactsCover: React.FC = () => {
             <div className="font-medium text-white">"Автоматизированное управление</div>
             <div className="font-medium text-white">бизнес-процессами и финансами"</div>
           </div>
-          <img src={lia} className="w-1/2 rounded-2xl border-[rgba(255,255,255,0.3)] border-[1px]"/>
+          <img alt="" src={lia} className="w-1/2 rounded-2xl border-[rgba(255,255,255,0.3)] border-[1px]"/>
         </div>
       </div>
     </div>

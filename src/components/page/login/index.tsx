@@ -83,7 +83,7 @@ export const Login: React.FC = () => {
           setButtonRegisterText(defaultRegisterLoginButton);
         }, 1000);
       });
-  }, [defaultLoginButton, setToken]);
+  }, [defaultRegisterLoginButton, setToken]);
 
   const Login = useMemo(() => (
     <div className="flex flex-col w-full h-full ml-[30px]">

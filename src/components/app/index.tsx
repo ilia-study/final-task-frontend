@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import { Header } from "../header";
 import { Content } from "../content";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { navigationButtons } from "../header/navigation/button";
 import { useTendersStoreSelector } from "../store/hooks/redux";
 import { Login } from "../page/login";
-import { Main } from "../page/main";
-import { Register } from "../page/register";
 
 export const App: React.FC = () => {
   const {pathname} = useLocation();
