@@ -30,7 +30,7 @@ export const TendersCard: React.FC<TendersCardProps> = ({
   }, [isSuccess, refetch]);
 
   return (
-    <div className="flex h-[calc(33.333333%-(20px/3))] w-[calc(33.333333%)] animate-appearance">
+    <div className="flex h-[calc(50%-(10px))] w-[calc(33.333333%)] animate-appearance">
       <Link to={`${id}`} rel="noopener noreferrer" className="h-full w-full">
         <div
           className="flex flex-col w-[calc(100%-20px)] h-[calc(100%-20px)] bg-[rgba(255,255,255,0.25)] rounded-2xl hover:bg-[rgba(255,255,255,0.35)] cursor-pointer transition-background overflow-hidden"

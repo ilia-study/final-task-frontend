@@ -1,0 +1,15 @@
+.invalid-credentials {
+    background-color: rgba(255, 2, 2, 0.3);
+}
+
+.invalid-credentials:hover {
+    background-color: rgba(255, 2, 2, 0.45);
+}
+
+.valid-credentials {
+    background-color: rgba(55, 255, 0, 0.3);
+}
+
+.valid-credentials:hover {
+    background-color: rgba(55, 255, 0, 0.45);
+}

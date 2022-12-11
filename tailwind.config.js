@@ -7,6 +7,7 @@ module.exports = {
       transitionProperty: {
         'background': 'background',
         'filter': 'filter',
+        'height': 'height',
       },
       animation: {
         'spin-slow': 'spin 3s linear infinite',
